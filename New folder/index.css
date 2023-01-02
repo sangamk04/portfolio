@@ -1,0 +1,55 @@
+.card-text span{
+    color:red;
+    font-weight: 500;
+}
+.card-img-top{
+    height: 60px;
+    width: 30px;
+}
+.prophoto{
+    height: 90%;
+}
+.clr{
+   text-align: left;
+    color: black;
+}
+.port{
+    background-color: rgb(228, 241, 241);
+}
+.scroll-left {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+    /* background: yellow; */
+    
+    /* border: 1px solid grey; */
+   }
+   .scroll-left p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: red;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    transform:translateX(100%);
+    /* Apply animation to this element */
+    animation: scroll-left 15s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @keyframes scroll-left {
+    0%   {
+    transform: translateX(100%); 		
+    }
+    100% {
+    transform: translateX(-100%); 
+    }
+   }
+   .mypro{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+   }
